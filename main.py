@@ -1,3 +1,5 @@
+from stats import count_words
+
 def get_book_text(filepath):
     """Reads a file and returns its contents as a string."""
     with open(filepath) as f:
